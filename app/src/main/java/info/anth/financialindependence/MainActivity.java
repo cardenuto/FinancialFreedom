@@ -18,4 +18,25 @@ public class MainActivity extends AppCompatActivity {
     public void step0(View view) {
         Log.i("ajc", "inStep0");
     }
+    public void step1(View view) {
+        Log.i("ajc", "inStep1");
+    }
+    public void step2(View view) {
+        Log.i("ajc", "inStep2");
+    }
+    public void step3(View view) {
+        Log.i("ajc", "inStep3");
+    }
+    public void step4(View view) {
+        Log.i("ajc", "inStep4");
+    }
+    public void step5(View view) {
+        Log.i("ajc", "inStep5");
+    }
+    public void step6(View view) {
+        Log.i("ajc", "inStep6");
+    }
+    public void step7(View view) {
+        Log.i("ajc", "inStep7");
+    }
 }

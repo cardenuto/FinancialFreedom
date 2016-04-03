@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">7 Steps to Financial Freedom</string>
+    <string name="app_name">Financial Freedom</string>
+    <string name="credit">Based on \"The Richest Man in Babylon\" by George S. Clason</string>
+    <string name="titlePart1">Steps towards</string>
+    <string name="titlePart2">Financial Freedom</string>
+
+    <string name="step0no">0</string>
+    <string name="step0text">Financial Freedom</string>
+
+    <string name="step1no">1</string>
+    <string name="step1text">Start Saving</string>
+
+    <string name="step2no">2</string>
+    <string name="step2text">Control Expenses</string>
+
+    <string name="step3no">3</string>
+    <string name="step3text">Put Money to Work</string>
+
+    <string name="step4no">4</string>
+    <string name="step4text">Guard Treasures</string>
+
+    <string name="step5no">5</string>
+    <string name="step5text">Profit from Dwelling</string>
+
+    <string name="step6no">6</string>
+    <string name="step6text">Future Income</string>
+
+    <string name="step7no">7</string>
+    <string name="step7text">Increase Ability</string>
 </resources>

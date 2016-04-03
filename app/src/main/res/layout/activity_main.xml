@@ -11,7 +11,7 @@
     >
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,12 +21,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="7"
+            android:includeFontPadding="false"
+            android:text="@string/step7no"
             android:typeface="serif"
             android:textStyle="bold"
-            android:textSize="55dp"
-            android:textColor="#9E9E9E"
-            android:layout_gravity="top"
+            android:textSize="65sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="top"
             />
         <LinearLayout
             android:layout_width="0px"
@@ -34,19 +35,24 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
             >
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:text="Steps towards"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:text="@string/titlePart1"
+                android:layout_marginTop="3dp"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Financial Freedom"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="-8dp"
+                android:text="@string/titlePart2"
                 />
         </LinearLayout>
     </LinearLayout>
@@ -57,283 +63,150 @@
         android:background="#9E9E9E"
         />
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        style="@style/stepLinearLayout"
         >
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="110dp"
+            style="@style/stepRelativeLayout"
             android:onClick="step0"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="0"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#E53935"
-                android:background="#EF5350"
+                style="@style/BackgroundNumber"
+                android:text="@string/step0no"
+                android:textColor="@color/colorStep0text"
+                android:background="@color/colorStep0back"
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Financial Freedom"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
+                style="@style/StepText"
+                android:text="@string/step0text"
                 />
         </RelativeLayout>
         <TextView
-            android:layout_width="10dp"
-            android:layout_height="match_parent"/>
+            style="@style/stepFillerTextView"
+            />
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="110dp"
+            style="@style/stepRelativeLayout"
+            android:onClick="step1"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="1"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#FF5722"
-                android:background="#FF8A65"
+                style="@style/BackgroundNumber"
+                android:text="@string/step1no"
+                android:textColor="@color/colorStep1text"
+                android:background="@color/colorStep1back"
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Start Saving"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
+                style="@style/StepText"
+                android:text="@string/step1text"
                 />
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        style="@style/stepLinearLayout"
         >
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minHeight="110dp"
+            style="@style/stepRelativeLayout"
+            android:onClick="step2"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="2"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#2E7D32"
-                android:background="#43A047"
-
+                style="@style/BackgroundNumber"
+                android:text="@string/step2no"
+                android:textColor="@color/colorStep2text"
+                android:background="@color/colorStep2back"
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Control Expenses"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
-
+                style="@style/StepText"
+                android:text="@string/step2text"
                 />
         </RelativeLayout>
         <TextView
-            android:layout_width="10dp"
-            android:layout_height="match_parent"/>
+            style="@style/stepFillerTextView"
+            />
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minHeight="110dp"
+            style="@style/stepRelativeLayout"
+            android:onClick="step3"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="3"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#1976D2"
-                android:background="#2196F3"
-
+                style="@style/BackgroundNumber"
+                android:text="@string/step3no"
+                android:textColor="@color/colorStep3text"
+                android:background="@color/colorStep3back"
                 />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Put Money to Work"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
-
+                style="@style/StepText"
+                android:text="@string/step3text"
                 />
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        style="@style/stepLinearLayout"
         >
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minHeight="110dp"
+            style="@style/stepRelativeLayout"
+            android:onClick="step4"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="4"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#9C27B0"
-                android:background="#BA68C8"
-
+                style="@style/BackgroundNumber"
+                android:text="@string/step4no"
+                android:textColor="@color/colorStep4text"
+                android:background="@color/colorStep4back"
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Guard Treasures"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
-
+                style="@style/StepText"
+                android:text="@string/step4text"
                 />
         </RelativeLayout>
         <TextView
-            android:layout_width="10dp"
-            android:layout_height="match_parent"/>
+            style="@style/stepFillerTextView"
+            />
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minHeight="110dp"
+            style="@style/stepRelativeLayout"
+            android:onClick="step5"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="5"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#795548"
-                android:background="#A1887F"
-
+                style="@style/BackgroundNumber"
+                android:text="@string/step5no"
+                android:textColor="@color/colorStep5text"
+                android:background="@color/colorStep5back"
                 />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Profit from Dwelling"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
-
+                style="@style/StepText"
+                android:text="@string/step5text"
                 />
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        style="@style/stepLinearLayout"
         >
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="110dp"
+            style="@style/stepRelativeLayout"
+            android:onClick="step6"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="6"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#546E7A"
-                android:background="#78909C"
+                style="@style/BackgroundNumber"
+                android:text="@string/step6no"
+                android:textColor="@color/colorStep6text"
+                android:background="@color/colorStep6back"
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Future Income"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
+                style="@style/StepText"
+                android:text="@string/step6text"
                 />
         </RelativeLayout>
         <TextView
-            android:layout_width="10dp"
-            android:layout_height="match_parent"/>
+            style="@style/stepFillerTextView"
+            />
         <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="110dp"
+            style="@style/stepRelativeLayout"
+            android:onClick="step7"
             >
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal|center_vertical"
-                android:includeFontPadding="false"
-                android:text="7"
-                android:typeface="serif"
-                android:textStyle="bold"
-                android:textSize="95dp"
-                android:textColor="#424242"
-                android:background="#757575"
+                style="@style/BackgroundNumber"
+                android:text="@string/step7no"
+                android:textColor="@color/colorStep7text"
+                android:background="@color/colorStep7back"
                 />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Increase Ability"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
+                style="@style/StepText"
+                android:text="@string/step7text"
                 />
         </RelativeLayout>
     </LinearLayout>
@@ -347,8 +220,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Based on 'The Richest Man in Babylon' by George S. Clason"
-        android:textSize="12dp"
+        android:text="@string/credit"
+        android:textSize="12sp"
         />
 </LinearLayout>
 </ScrollView>
