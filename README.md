@@ -19,12 +19,16 @@ from this repository.
 If prompted for a gradle configuration accept the default settings. 
 
 ## Application Screen Shots
+
+<img src="https://github.com/cardenuto/FinancialFreedom/blob/master/device-2016-04-04-113120.png" alt="Step Screen" width="40%">
+<img src="https://github.com/cardenuto/FinancialFreedom/blob/master/device-2016-04-04-113240.png" alt="Step Screen" width="40%">
+
 ### Main Screen
 The main activity (MainActiviy) provides the user 8 choices, what is financial freedom and the 7 steps. The main blocks are built using overlapping TextViews in a RelativeLayout. They are ordered using a combination of horizontal and vertical LinearLayouts. A header and footer are added. The entire screen is wrapped in a ScrollView. The application bar is generated from the activity and is not defined in the xml file. 
 
 <img src="https://github.com/cardenuto/FinancialFreedom/blob/master/main-screen.png" alt="Main Screen" width="100%">
 
-### Step screens
+### Step Screens
 
 By clicking one of the boxes on the main screen, the user initiates a new activity that shows the steps. The steps use the tabbed activity (Steps.java) available in Android Studio. The tabbed activity consists of fragments (the steps) managed by a FragmentPagerAdapter. By swiping left and right when looking at the steps, the user can navigate between them. Hitting the back button or the home arrow, the user is returned to the main screen. 
 
