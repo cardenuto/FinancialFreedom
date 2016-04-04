@@ -22,7 +22,7 @@ If prompted for a gradle configuration accept the default settings.
 
 The main activity (MainActiviy) consists of 8 sections, what is financial freedom and the 7 steps. The steps use the tabbed activity (Steps) available in Android Studio. The tabbed activity consists of fragments (the steps) managed by a FragmentPagerAdapter. 
 
-<img src="https://github.com/cardenuto/FinancialFreedom/blob/master/device-2016-04-04-113120.png" alt="Main Screen" width="40%">
+<img src="https://github.com/cardenuto/FinancialFreedom/blob/master/main-screen.png" alt="Main Screen" width="100%">
 <img src="https://github.com/cardenuto/FinancialFreedom/blob/master/device-2016-04-04-113240.png" alt="Main Screen" width="40%">
 
 ## About Google Developer Group (GDG) Hudson Valley
