@@ -1,42 +1,55 @@
 package info.anth.financialindependence;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
     }
 
     public void step0(View view) {
-        Log.i("ajc", "inStep0");
+        Context context = view.getContext();
+        callStepIntent(context, 0);
     }
     public void step1(View view) {
-        Log.i("ajc", "inStep1");
+        Context context = view.getContext();
+        callStepIntent(context, 1);
     }
     public void step2(View view) {
-        Log.i("ajc", "inStep2");
+        Context context = view.getContext();
+        callStepIntent(context, 2);
     }
     public void step3(View view) {
-        Log.i("ajc", "inStep3");
+        Context context = view.getContext();
+        callStepIntent(context, 3);
     }
     public void step4(View view) {
-        Log.i("ajc", "inStep4");
+        Context context = view.getContext();
+        callStepIntent(context, 4);
     }
     public void step5(View view) {
-        Log.i("ajc", "inStep5");
+        Context context = view.getContext();
+        callStepIntent(context, 5);
     }
     public void step6(View view) {
-        Log.i("ajc", "inStep6");
+        Context context = view.getContext();
+        callStepIntent(context, 6);
     }
     public void step7(View view) {
-        Log.i("ajc", "inStep7");
+        Context context = view.getContext();
+        callStepIntent(context, 7);
+    }
+
+    public void callStepIntent(Context context, int stepNo){
+        Intent intent = new Intent(context, Steps.class);
+        intent.putExtra(Steps.REQUEST_CURRENT_STEP, stepNo);
+        context.startActivity(intent);
     }
 }

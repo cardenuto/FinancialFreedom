@@ -28,5 +28,14 @@
     <color name="colorStep7text">#424242</color>
     <color name="colorStep7back">#757575</color>
 
-
+    <array name="step_text_color">
+        <item>@color/colorStep0text</item>
+        <item>@color/colorStep1text</item>
+        <item>@color/colorStep2text</item>
+        <item>@color/colorStep3text</item>
+        <item>@color/colorStep4text</item>
+        <item>@color/colorStep5text</item>
+        <item>@color/colorStep6text</item>
+        <item>@color/colorStep7text</item>
+    </array>
 </resources>

@@ -27,4 +27,176 @@
 
     <string name="step7no">7</string>
     <string name="step7text">Increase Ability</string>
+
+    <string name="super1">&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;</string>
+    <string name="citation1">&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason</string>
+    <string name="super2">&lt;sup&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sup&gt;</string>
+    <string name="citation2">%1$s\"The Richest Man in Babylon\" by George S. Clason</string>
+
+    <string name="title_activity_steps">Financial Steps</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="step_numbers">
+        <item/>
+        <item>@string/step1no</item>
+        <item>@string/step2no</item>
+        <item>@string/step3no</item>
+        <item>@string/step4no</item>
+        <item>@string/step5no</item>
+        <item>@string/step6no</item>
+        <item>@string/step7no</item>
+    </string-array>
+
+    <string-array name="step_short_title">
+        <item>@string/step0text</item>
+        <item>@string/step1text</item>
+        <item>@string/step2text</item>
+        <item>@string/step3text</item>
+        <item>@string/step4text</item>
+        <item>@string/step5text</item>
+        <item>@string/step6text</item>
+        <item>@string/step7text</item>
+    </string-array>
+
+    <string-array name="step_long_title">
+        <item>What is Financial Freedom?</item>
+        <item>Start saving money</item>
+        <item>Control your expenditures</item>
+        <item>Make your money to multiply</item>
+        <item>Guard your money from loss</item>
+        <item>Make your dwelling a profitable investment</item>
+        <item>Insure a future income</item>
+        <item>Increase your ability to earn</item>
+    </string-array>
+
+    <string-array name="step_quotes">
+        <item>the state of having sufficient personal wealth to live, without having to work actively for basic necessities.%1$s</item>
+        <item>For each ten coins I put in, to spend but nine.%1$s</item>
+        <item>Budget thy expenses that thou mayest have coins to pay for thy necessities, to pay for thy enjoyments and to gratify thy worthwhile desires without spending more than nine-tenths of thy earnings.%1$s</item>
+        <item>Put each coin to laboring that it may reproduce its kind even as the flocks of the field and help bring to thee income, a stream of wealth that shall flow constantly into thy purse.%1$s</item>
+        <item>Guard thy treasure from loss by investing only where thy principal is safe, where it may be reclaimed if desirable, and where thou will not fail to collect a fair rental. Consult with wise men. Secure the advice of those experienced in the profitable handling of gold. Let their wisdom protect thy treasure from unsafe investments.%1$s</item>
+        <item>Own thy own home.%1$s</item>
+        <item>Provide in advance for the needs of thy growing age and the protection of thy family.%1$s</item>
+        <item>Cultivate thy own powers, to study and become wiser, to become more skillful, to so act as to respect thyself.%1$s</item>
+    </string-array>
+
+
+    <string-array name="step_text" formatted="false">
+        <item>&lt;p&gt;Financial freedom is the goal, the 7 steps are meant to help you attain that goal. They set forth a starting point,
+            you need to save and control your expenditures, but also contains growth features like putting your money to work or increasing
+            your ability to earn. If you learn them, understand them, and then live them, I believe they will help you attain financial freedom.&lt;/p&gt;
+            &lt;p&gt;But what is Financial Freedom?  Is it a large amount of money? At one point I thought so, but now I say it is not. A large
+            amount of money will give you freedom for a period of time, but as you spend it, it will decrease and eventually be gone. Financial
+            Freedom comes from the ownership of income streams that don’t rely on your actions to exists.&lt;/p&gt;
+            &lt;p&gt;I conducted two experiments. In the first experiment, I quit my job with what I thought was a large amount of money,
+            I invested in the stock market, and got reasonable returns. However, in two years nearly all of it was gone. The returns were not high
+            enough to pay my expenses so every month the amount of cash I had decreased. I thought I had some freedom financially because of the
+            money I had, and for a short time I did. However, once the money was gone so was the freedom.&lt;/p&gt;
+            &lt;p&gt;Over the following ten years I worked on ways to create an income independent from working my job. My perception on money
+            had changed. Because of the teachings of the first experiment, I was now saving at a much higher rate. I was investing the money into
+            assets that generate a cash flow, mostly bonds, and dividend stocks.&lt;/p&gt;
+            &lt;p&gt;Two years ago I started the second experiment. I quit my job with an income. Because of the income, I can continue my
+            sabbatical or go back to work. It is my choice. And that choice is freedom.&lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;Wikipedia
+            &lt;/p&gt;
+        </item>
+        <item>&lt;p&gt;If one labors and earns he/she should begin to save money. This is the first step towards financial freedom.
+            It is wise to utilize current sources of income to grow one’s wealth, saving a minimum of 10&#37; of their income.&lt;/p&gt;
+            &lt;p&gt;This should be committed to and done, prior to spending.&lt;/p&gt;
+            &lt;p&gt;By merely saving money on a regular basis, your wealth will grow.&lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason
+            &lt;/p&gt;
+        </item>
+        <item>
+            &lt;p&gt;Many say that their expenditures are too high to be able to afford money for saving. We know that not all people earn the same amount of
+                money, some earn much more. There are those with families, and those without. Yet no-one seems to have any money saved.  One tends to adjust to
+                their level of income nearly regardless of the amounts. I have known people making hundreds of thousands of dollars and having little money saved.
+                While knowing people making $10/hour saving over 10&#37; of their income.&lt;/p&gt;
+            &lt;p&gt;Unless we fight it, our ‘necessary expenses’ will always grow to the level of our income.&lt;/p&gt;
+            &lt;p&gt;Controlling your expenditures is about choice, it is about fighting that human nature to grow to the level of our income.
+            A budgeting process is a tool to help use determine where we are spending valuable resources.&lt;/p&gt;
+            &lt;p&gt;Controlling your expense should not be viewed as chains that bind you to sacrifice but as choices made that will help liberate you
+            in the future.&lt;/p&gt;
+            &lt;p&gt;As I get older and I have some financial freedom, I have found that I have so many more options and choices over my colleagues.
+            I have more money to spend when I am working, have a good amount of emergency funds should something happen, and can choose to work at a job
+            that pays less that I enjoy more, all because I chose to control my expenditures and followed the other steps.&lt;/p&gt;
+            &lt;p&gt;Review your expenditures and eliminate or reduce the items that are unnecessary expenses that bring little or diminishing joy.
+            Minimize your expenditures to no more than 90&#37; of your income.
+            &lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason
+            &lt;/p&gt;
+        </item>
+        <item>
+            &lt;p&gt;If you save $100 a month, your savings will grow over time, and in 12 months you will have $1,200. By investing your savings, your money will
+            start to generate an income, and this income will help you grow your wealth over time.&lt;/p&gt;
+            &lt;p&gt;There is a lot of information about compounding interest available, it is worth reading and understanding. When your money is working for
+            you time is a great asset.&lt;/p&gt;
+            &lt;p&gt;Work: Income is created from work. As an employee that income is in the form of your pay check. But money is an inanimate object,
+            how can it work for you?&lt;/p&gt;
+            &lt;p&gt;Jim is a chicken farmer. He has 100 birds and wants to expand to 200. He wants to borrow your $1,200 to expand. He is willing to pay
+            you 10&#37; interest to borrow your money for a year. You decide to invest, putting your money to “work”. It’s Jim’s actual work that creates the
+            income for your money. But let’s not forget the chickens. They are reproducing and laying eggs to be sold.  They are working with Jim to pay you as
+            well. Jim need the money to purchase a machine that cleans the eggs, making him more productive and giving him the ability to manage 200 chickens.
+            That machine is also working to pay you back. (Even though it is an inanimate object.)&lt;/p&gt;
+            &lt;p&gt;I tell this story to point out that there is work behind investments. And to be financially independent you may find success in thinking
+            about this work and how it can benefit you. Tenets work to pay rent. If they can’t earn enough you will receive lower rents or have empty
+            apartments.&lt;/p&gt;
+            &lt;p&gt;There are many ways to put money to work, bonds receiving an interest payment, stock with dividends and/or capital gains, rental properties,
+            or royalties. Even buying chickens and selling the eggs.&lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason
+            &lt;/p&gt;
+        </item>
+        <item>
+            &lt;p&gt;It is very important to guard your money from loss, else you run the risk of losing it just as if you had never saved it in the
+            first place. It is wise advice to invest in what you know and to seek the advice of professionals in the area you look to invest.&lt;/p&gt;
+            &lt;p&gt;There is a lot of emotion in investing, it is best to check the dreams at the door. And try to be critical when assessing potential
+            investments. Sometimes it is worth staying away from opportunities when you get caught up in the emotions and cannot see clearly, even when
+            others seem to be making money.  Don’t forget the old adage, if it looks too good to be true, it probably is.&lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason
+            &lt;/p&gt;
+        </item>
+        <item>
+            &lt;p&gt;Owning your own dwelling is a good way to save. Each month when the mortgage is paid, part of the principal is paid along with the interest.
+            Once the loan is paid off, your expenses decrease freeing up more money to save or requiring less income for financial freedom.&lt;/p&gt;
+            &lt;p&gt;Looking at a dwelling as an investment can be dangerous. In most cases, money put into a house will not work for the owner,
+            providing an income. (Step 3) Also, as shown in recent years, the house may and may not appreciate in value.&lt;/p&gt;
+            &lt;p&gt;Owning your dwelling can still be a good idea. Be careful not to overbuy, buying way to much house just because you can afford it.
+            This can make your house a bad investment, by ignoring “controlling your expenditures” (step 2).&lt;/p&gt;
+            &lt;p&gt;There are also ways to make your dwelling a true investment, generating income.  The most popular, buying a two family house.&lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason
+            &lt;/p&gt;
+        </item>
+        <item>
+            &lt;p&gt;Thinking about the future is not just retirement. Yes you will want to retire someday and during that time, you will want to
+            have the resources to live the life you want.You should think about retirement and plan accordingly. It is good to save the maximum
+            amount in retirement accounts to maximize tax advantages. But do not lose sight of the fact that there could be a non-retirement opportunity
+            that is financially more advantageous than putting money in retirement accounts. Always consider company matching of money in any analysis.&lt;/p&gt;
+            &lt;p&gt;Just as important to your future is your financial condition if you should lose your job, an emergency happens in your or a loved
+            one’s life, or an opportunity arises that requires financial assets. To me this is one of the major goals of financial freedom: to be prepared.&lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason
+            &lt;/p&gt;
+        </item>
+        <item>
+            &lt;p&gt;Increasing your ability to earn is where creativity, education, and experimentation advance your path to financial freedom.
+            Fundamentally its direction is to find ways to increase your knowledge and skills in generating wealth.&lt;/p&gt;
+            &lt;p&gt;Finding more money to save could be done by increasing your income. You can improve skills, take classes, attend to your boss’
+            needs, take on new responsibility, get a new job etc. By finding ways to improve yourself you can generally attain more income,
+            increasing resources available to save. Alternatively, increasing your abilities can also help in controlling expenses. Growing up
+            we had little money, my father controlled his expenses through hunting. He enjoyed it, while the costs were low, it provided hundreds
+            of pounds of meat.&lt;/p&gt;
+            &lt;p&gt;Always strive for improvement it will most likely help you improve your financial condition, and it will make you feel
+            proud of what you can accomplish.&lt;/p&gt;
+            &lt;p&gt;
+            ------&lt;br/&gt;&lt;sup&gt;&lt;small&gt;1&lt;/small&gt;&lt;/sup&gt;\"The Richest Man in Babylon\" by George S. Clason
+            &lt;/p&gt;
+        </item>
+    </string-array>
+
 </resources>
