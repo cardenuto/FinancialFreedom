@@ -3,231 +3,226 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.anth.financialindependence.MainActivity"
-    >
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    >
+    tools:context="info.anth.financialindependence.MainActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:includeFontPadding="false"
-            android:text="@string/step7no"
-            android:typeface="serif"
-            android:textStyle="bold"
-            android:textSize="65sp"
-            android:textColor="@color/colorAccent"
-            android:gravity="top"
-            />
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <!-- Heading -->
         <LinearLayout
-            android:layout_width="0px"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="0dp"
-            android:layout_marginStart="0dp"
-            >
+            android:orientation="horizontal">
+
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold|italic"
-                android:text="@string/titlePart1"
-                android:layout_marginTop="3dp"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:layout_marginTop="-8dp"
-                android:text="@string/titlePart2"
-                />
-        </LinearLayout>
-    </LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:layout_marginBottom="5dp"
-        android:background="#9E9E9E"
-        />
-    <LinearLayout
-        style="@style/stepLinearLayout"
-        >
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step0"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
-                android:text="@string/step0no"
-                android:textColor="@color/colorStep0text"
-                android:background="@color/colorStep0back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step0text"
-                android:textColor="@color/colorStep0text"
-                android:background="#FFFFFF"
-                android:layout_margin="5dp"
-                android:layout_height="match_parent"
-                android:layout_width="match_parent"
-                />
-        </RelativeLayout>
-        <TextView
-            style="@style/stepFillerTextView"
-            />
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step1"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
-                android:text="@string/step1no"
-                android:textColor="@color/colorStep1text"
-                android:background="@color/colorStep1back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step1text"
-                />
-        </RelativeLayout>
-    </LinearLayout>
-    <LinearLayout
-        style="@style/stepLinearLayout"
-        >
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step2"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
-                android:text="@string/step2no"
-                android:textColor="@color/colorStep2text"
-                android:background="@color/colorStep2back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step2text"
-                />
-        </RelativeLayout>
-        <TextView
-            style="@style/stepFillerTextView"
-            />
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step3"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
-                android:text="@string/step3no"
-                android:textColor="@color/colorStep3text"
-                android:background="@color/colorStep3back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step3text"
-                />
-        </RelativeLayout>
-    </LinearLayout>
-    <LinearLayout
-        style="@style/stepLinearLayout"
-        >
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step4"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
-                android:text="@string/step4no"
-                android:textColor="@color/colorStep4text"
-                android:background="@color/colorStep4back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step4text"
-                />
-        </RelativeLayout>
-        <TextView
-            style="@style/stepFillerTextView"
-            />
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step5"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
-                android:text="@string/step5no"
-                android:textColor="@color/colorStep5text"
-                android:background="@color/colorStep5back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step5text"
-                />
-        </RelativeLayout>
-    </LinearLayout>
-    <LinearLayout
-        style="@style/stepLinearLayout"
-        >
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step6"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
-                android:text="@string/step6no"
-                android:textColor="@color/colorStep6text"
-                android:background="@color/colorStep6back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step6text"
-                />
-        </RelativeLayout>
-        <TextView
-            style="@style/stepFillerTextView"
-            />
-        <RelativeLayout
-            style="@style/stepRelativeLayout"
-            android:onClick="step7"
-            >
-            <TextView
-                style="@style/BackgroundNumber"
+                android:gravity="top"
+                android:includeFontPadding="false"
                 android:text="@string/step7no"
-                android:textColor="@color/colorStep7text"
-                android:background="@color/colorStep7back"
-                />
-            <TextView
-                style="@style/StepText"
-                android:text="@string/step7text"
-                />
-        </RelativeLayout>
+                android:textColor="@color/colorAccent"
+                android:textSize="65sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/titlePart1"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-8dp"
+                    android:text="@string/titlePart2"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Line -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#9E9E9E" />
+
+        <LinearLayout style="@style/stepLinearLayout">
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step0">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep0back"
+                    android:text="@string/step0no"
+                    android:textColor="@color/colorStep0text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF"
+                    android:text="@string/step0text"
+                    android:textColor="@color/colorStep0text" />
+            </RelativeLayout>
+
+            <TextView style="@style/stepFillerTextView" />
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step1">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep1back"
+                    android:text="@string/step1no"
+                    android:textColor="@color/colorStep1text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:text="@string/step1text" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/stepLinearLayout">
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step2">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep2back"
+                    android:text="@string/step2no"
+                    android:textColor="@color/colorStep2text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:text="@string/step2text" />
+            </RelativeLayout>
+
+            <TextView style="@style/stepFillerTextView" />
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step3">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep3back"
+                    android:text="@string/step3no"
+                    android:textColor="@color/colorStep3text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:text="@string/step3text" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/stepLinearLayout">
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step4">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep4back"
+                    android:text="@string/step4no"
+                    android:textColor="@color/colorStep4text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:text="@string/step4text" />
+            </RelativeLayout>
+
+            <TextView style="@style/stepFillerTextView" />
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step5">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep5back"
+                    android:text="@string/step5no"
+                    android:textColor="@color/colorStep5text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:text="@string/step5text" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/stepLinearLayout">
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step6">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep6back"
+                    android:text="@string/step6no"
+                    android:textColor="@color/colorStep6text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:text="@string/step6text" />
+            </RelativeLayout>
+
+            <TextView style="@style/stepFillerTextView" />
+
+            <RelativeLayout
+                style="@style/stepRelativeLayout"
+                android:onClick="step7">
+
+                <TextView
+                    style="@style/BackgroundNumber"
+                    android:background="@color/colorStep7back"
+                    android:text="@string/step7no"
+                    android:textColor="@color/colorStep7text" />
+
+                <TextView
+                    style="@style/StepText"
+                    android:text="@string/step7text" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- Line -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#9E9E9E" />
+
+        <!-- Citation -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/credit"
+            android:textSize="12sp" />
     </LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:layout_marginTop="10dp"
-        android:background="#9E9E9E"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="@string/credit"
-        android:textSize="12sp"
-        />
-</LinearLayout>
 </ScrollView>

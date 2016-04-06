@@ -13,17 +13,23 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import java.util.Stack;
+
 public class Steps extends AppCompatActivity {
 
     public static final String REQUEST_CURRENT_STEP = "current_step";
 
     int currentStep;
+    int priorStep;
+    Stack<Integer> pageHistory;
+    boolean saveToHistory;
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -74,7 +80,29 @@ public class Steps extends AppCompatActivity {
         currentStep = getIntent().getIntExtra(REQUEST_CURRENT_STEP, 0);
         mViewPager.setCurrentItem(currentStep);
 
+        pageHistory = new Stack<>();
+        saveToHistory = true;
+        // setup the value on creation of the activity
+        priorStep = currentStep;
 
+        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                if (saveToHistory) {
+                    pageHistory.push(priorStep);
+                    priorStep = position;
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
     }
 
     public void composeEmail(String subject, String body) {
@@ -84,6 +112,21 @@ public class Steps extends AppCompatActivity {
         intent.putExtra(Intent.EXTRA_TEXT, body);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
+        }
+    }
+
+    /*
+        Override the onBackPress to get the system to return to prior step if swipe navigated
+     */
+    @Override
+    public void onBackPressed() {
+        if(pageHistory.empty())
+            super.onBackPressed();
+        else {
+            saveToHistory = false;
+            int makeCurrentStep = pageHistory.pop();
+            mViewPager.setCurrentItem(makeCurrentStep);
+            saveToHistory = true;
         }
     }
 
